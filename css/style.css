@@ -68,7 +68,7 @@ h1 {
   align-items: center;
 }
 .color-button {
-  background-color: black;
+  background-color: var(--bgblack);
   color: white;
   margin-left: 1.3rem;
 }
@@ -199,3 +199,17 @@ hr {
 }
 
 /* hover effects */
+.h-button:hover {
+  color: var(--bgblue);
+  box-shadow: 5px 5px 10px 2px var(--bgblue);
+}
+
+.color-button:hover {
+  background-color: #32363a;
+  box-shadow: 5px 5px 10px 2px var(--bgblue);
+}
+
+.buttonviolet:hover {
+  background-color: #879ee4;
+  box-shadow: 5px 5px 10px 2px #6680cf;
+}
