@@ -213,3 +213,7 @@ hr {
   background-color: #879ee4;
   box-shadow: 5px 5px 10px 2px #6680cf;
 }
+
+.underline li:hover {
+  text-decoration: underline;
+}
